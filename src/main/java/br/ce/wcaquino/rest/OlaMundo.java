@@ -12,6 +12,6 @@ public class OlaMundo {
         System.out.println(response.statusCode() == 200);
 
         ValidatableResponse validacao = response.then();
-        validacao.statusCode(201);
+        validacao.statusCode(200);
     }
 }
